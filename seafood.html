@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>水产海鲜储藏指南 - 食品储藏指南</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2563eb',
+                        secondary: '#10b981',
+                        accent: '#f59e0b',
+                        light: '#f3f4f6',
+                        'theme-1': '#e11d48',
+                        'theme-2': '#7c3aed',
+                        'theme-3': '#059669',
+                        'theme-4': '#ea580c',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Header -->
+    <header class="fixed w-full bg-white/90 backdrop-blur-sm shadow-sm z-50">
+        <nav class="container mx-auto px-4 py-4 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <img src="https://api.dicebear.com/7.x/shapes/svg?seed=food" alt="Logo" class="w-10 h-10">
+                <span class="text-xl font-bold text-primary">食品储藏指南</span>
+            </div>
+            <div class="hidden md:flex space-x-8">
+                <a href="index.html" class="text-gray-600 hover:text-primary transition-colors">首页</a>
+                <a href="#" class="text-primary font-semibold">储藏指南</a>
+                <a href="mistakes.html" class="text-gray-600 hover:text-primary transition-colors">误区辨析</a>
+                <a href="tips.html" class="text-gray-600 hover:text-primary transition-colors">保鲜妙招</a>
+                <a href="about.html" class="text-gray-600 hover:text-primary transition-colors">关于我们</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="pt-24 pb-12">
+        <div class="container mx-auto px-4 max-w-6xl">
+            <h1 class="text-4xl font-bold text-center mb-12">水产海鲜储藏指南</h1>
+            
+            <!-- 鱼类 -->
+            <section class="bg-white rounded-xl shadow-lg p-8 mb-8">
+                <h2 class="text-2xl font-semibold mb-6 text-theme-4">鱼类</h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <img src="https://placehold.co/600x400/e2e8f0/1e293b?text=鱼类" alt="鱼类储藏示意图" class="w-full h-64 object-cover rounded-lg mb-4">
+                        <h3 class="text-xl font-semibold mb-2">储存要点</h3>
+                        <ul class="list-disc list-inside space-y-2 text-gray-600">
+                            <li>温度：0-4℃（冷藏）/ -18℃以下（冷冻）</li>
+                            <li>湿度：90-95%</li>
+                            <li>建议位置：冰箱冷藏室/冷冻室</li>
+                            <li>储存时间：冷藏1-2天/冷冻3-6个月</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">储存方法</h3>
+                        <ol class="list-decimal list-inside space-y-3 text-gray-600">
+                            <li>清理：去除内脏和鳞片</li>
+                            <li>清洗：用清水冲洗干净</li>
+                            <li>沥干：彻底沥干水分</li>
+                            <li>包装：使用保鲜膜或保鲜袋密封</li>
+                        </ol>
+                        <div class="mt-6 p-4 bg-orange-50 rounded-lg">
+                            <p class="text-orange-800">💡 小贴士：鱼类最好在购买当天食用，如需储存建议去除内脏后再冷藏。</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 贝类 -->
+            <section class="bg-white rounded-xl shadow-lg p-8 mb-8">
+                <h2 class="text-2xl font-semibold mb-6 text-theme-4">贝类</h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <img src="https://placehold.co/600x400/e2e8f0/1e293b?text=贝类" alt="贝类储藏示意图" class="w-full h-64 object-cover rounded-lg mb-4">
+                        <h3 class="text-xl font-semibold mb-2">储存要点</h3>
+                        <ul class="list-disc list-inside space-y-2 text-gray-600">
+                            <li>温度：4-7℃</li>
+                            <li>湿度：85-90%</li>
+                            <li>建议位置：冰箱保鲜室</li>
+                            <li>储存时间：1-2天</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">储存方法</h3>
+                        <ol class="list-decimal list-inside space-y-3 text-gray-600">
+                            <li>挑选：选择活体，壳完整的贝类</li>
+                            <li>清洗：用盐水浸泡去沙</li>
+                            <li>沥干：沥干表面水分</li>
+                            <li>包装：用湿毛巾包裹或保鲜袋保存</li>
+                        </ol>
+                        <div class="mt-6 p-4 bg-orange-50 rounded-lg">
+                            <p class="text-orange-800">💡 小贴士：贝类最好保持湿润环境，但不要浸泡在水中储存。</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 虾蟹类 -->
+            <section class="bg-white rounded-xl shadow-lg p-8">
+                <h2 class="text-2xl font-semibold mb-6 text-theme-4">虾蟹类</h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <img src="https://placehold.co/600x400/e2e8f0/1e293b?text=虾蟹类" alt="虾蟹类储藏示意图" class="w-full h-64 object-cover rounded-lg mb-4">
+                        <h3 class="text-xl font-semibold mb-2">储存要点</h3>
+                        <ul class="list-disc list-inside space-y-2 text-gray-600">
+                            <li>温度：0-4℃（冷藏）/ -18℃以下（冷冻）</li>
+                            <li>湿度：85-90%</li>
+                            <li>建议位置：冰箱冷藏室/冷冻室</li>
+                            <li>储存时间：冷藏1天/冷冻2-3个月</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">储存方法</h3>
+                        <ol class="list-decimal list-inside space-y-3 text-gray-600">
+                            <li>清洗：用盐水清洗</li>
+                            <li>处理：去除虾头（如需长期储存）</li>
+                            <li>沥干：沥干表面水分</li>
+                            <li>包装：使用保鲜袋密封，尽量排出空气</li>
+                        </ol>
+                        <div class="mt-6 p-4 bg-orange-50 rounded-lg">
+                            <p class="text-orange-800">💡 小贴士：虾蟹类最好现买现吃，如需储存建议去除虾头后再冷冻。</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="mb-8 md:mb-0">
+                    <h3 class="text-xl font-semibold mb-4">关于我们</h3>
+                    <p class="text-gray-400">
+                        我们致力于为大家提供专业的食品储藏知识，让每个家庭都能享受到新鲜安全的食材。
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">快速链接</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white">首页</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">储藏指南</a></li>
+                        <li><a href="mistakes.html" class="text-gray-400 hover:text-white">误区辨析</a></li>
+                        <li><a href="tips.html" class="text-gray-400 hover:text-white">保鲜妙招</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">联系我们</h3>
+                    <p class="text-gray-400">邮箱：daxjiayou9767@gmail.com</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">关注我们</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <span class="sr-only">微信</span>
+                            📱
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <span class="sr-only">微博</span>
+                            💬
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p class="text-gray-400">© 2025 三明治恐龙 (foodknowledge.xyz) 版权所有</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>水果储藏指南 - 食品储藏指南</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2563eb',
+                        secondary: '#10b981',
+                        accent: '#f59e0b',
+                        light: '#f3f4f6',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Header -->
+    <header class="fixed w-full bg-white/90 backdrop-blur-sm shadow-sm z-50">
+        <nav class="container mx-auto px-4 py-4 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <img src="https://api.dicebear.com/7.x/shapes/svg?seed=food" alt="Logo" class="w-10 h-10">
+                <span class="text-xl font-bold text-primary">食品储藏指南</span>
+            </div>
+            <div class="hidden md:flex space-x-8">
+                <a href="index.html" class="text-gray-600 hover:text-primary transition-colors">首页</a>
+                <a href="#" class="text-primary font-semibold">储藏指南</a>
+                <a href="mistakes.html" class="text-gray-600 hover:text-primary transition-colors">误区辨析</a>
+                <a href="tips.html" class="text-gray-600 hover:text-primary transition-colors">保鲜妙招</a>
+                <a href="about.html" class="text-gray-600 hover:text-primary transition-colors">关于我们</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="pt-24 pb-12">
+        <div class="container mx-auto px-4">
+            <h1 class="text-4xl font-bold text-center mb-12">水果储藏指南</h1>
+            
+            <!-- 浆果类 -->
+            <section class="bg-white rounded-xl shadow-lg p-8 mb-8">
+                <h2 class="text-2xl font-semibold mb-6 text-primary">浆果类</h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <img src="https://placehold.co/600x400/e2e8f0/1e293b?text=浆果类" alt="浆果类储藏示意图" class="w-full h-64 object-cover rounded-lg mb-4">
+                        <h3 class="text-xl font-semibold mb-2">储存要点</h3>
+                        <ul class="list-disc list-inside space-y-2 text-gray-600">
+                            <li>温度：1-4℃</li>
+                            <li>湿度：90-95%</li>
+                            <li>建议位置：冰箱保鲜室</li>
+                            <li>储存时间：3-5天</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">储存方法</h3>
+                        <ol class="list-decimal list-inside space-y-3 text-gray-600">
+                            <li>挑选：选择完整、无破损的果实</li>
+                            <li>清理：不要提前清洗，食用时再清洗</li>
+                            <li>包装：使用透气的保鲜盒</li>
+                            <li>注意：避免挤压和堆叠</li>
+                        </ol>
+                        <div class="mt-6 p-4 bg-blue-50 rounded-lg">
+                            <p class="text-blue-800">💡 小贴士：草莓等浆果类水果可以单层铺放，底部垫一张厨房纸，能更好地保持新鲜。</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 柑橘类 -->
+            <section class="bg-white rounded-xl shadow-lg p-8 mb-8">
+                <h2 class="text-2xl font-semibold mb-6 text-primary">柑橘类</h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <img src="https://placehold.co/600x400/e2e8f0/1e293b?text=柑橘类" alt="柑橘类储藏示意图" class="w-full h-64 object-cover rounded-lg mb-4">
+                        <h3 class="text-xl font-semibold mb-2">储存要点</h3>
+                        <ul class="list-disc list-inside space-y-2 text-gray-600">
+                            <li>温度：4-8℃</li>
+                            <li>湿度：85-90%</li>
+                            <li>建议位置：冰箱保鲜室或阴凉处</li>
+                            <li>储存时间：1-2周</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">储存方法</h3>
+                        <ol class="list-decimal list-inside space-y-3 text-gray-600">
+                            <li>挑选：选择适中成熟度的水果</li>
+                            <li>清洁：用干布擦拭表面</li>
+                            <li>包装：可以用网袋或保鲜袋松散包裹</li>
+                            <li>环境：保持通风，避免潮湿</li>
+                        </ol>
+                        <div class="mt-6 p-4 bg-blue-50 rounded-lg">
+                            <p class="text-blue-800">💡 小贴士：橙子、柚子等柑橘类水果不要与其他水果混放，以免互相影响。</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 热带水果 -->
+            <section class="bg-white rounded-xl shadow-lg p-8 mb-8">
+                <h2 class="text-2xl font-semibold mb-6 text-primary">热带水果</h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <img src="https://placehold.co/600x400/e2e8f0/1e293b?text=热带水果" alt="热带水果储藏示意图" class="w-full h-64 object-cover rounded-lg mb-4">
+                        <h3 class="text-xl font-semibold mb-2">储存要点</h3>
+                        <ul class="list-disc list-inside space-y-2 text-gray-600">
+                            <li>温度：12-15℃</li>
+                            <li>湿度：85-90%</li>
+                            <li>建议位置：室温阴凉处</li>
+                            <li>储存时间：视具体水果而定</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">储存方法</h3>
+                        <ol class="list-decimal list-inside space-y-3 text-gray-600">
+                            <li>挑选：根据成熟度选择</li>
+                            <li>清洁：保持表面干燥</li>
+                            <li>摆放：避免阳光直射</li>
+                            <li>检查：定期查看成熟度</li>
+                        </ol>
+                        <div class="mt-6 p-4 bg-blue-50 rounded-lg">
+                            <p class="text-blue-800">💡 小贴士：香蕉、芒果等水果会释放乙烯，加速其他水果成熟，建议单独存放。</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 核果类 -->
+            <section class="bg-white rounded-xl shadow-lg p-8">
+                <h2 class="text-2xl font-semibold mb-6 text-primary">核果类</h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <img src="https://placehold.co/600x400/e2e8f0/1e293b?text=核果类" alt="核果类储藏示意图" class="w-full h-64 object-cover rounded-lg mb-4">
+                        <h3 class="text-xl font-semibold mb-2">储存要点</h3>
+                        <ul class="list-disc list-inside space-y-2 text-gray-600">
+                            <li>温度：0-4℃</li>
+                            <li>湿度：90-95%</li>
+                            <li>建议位置：冰箱保鲜室</li>
+                            <li>储存时间：3-7天</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">储存方法</h3>
+                        <ol class="list-decimal list-inside space-y-3 text-gray-600">
+                            <li>挑选：选择适中硬度的水果</li>
+                            <li>清洁：轻轻擦拭表面</li>
+                            <li>包装：使用透气的保鲜袋</li>
+                            <li>注意：避免碰撞和挤压</li>
+                        </ol>
+                        <div class="mt-6 p-4 bg-blue-50 rounded-lg">
+                            <p class="text-blue-800">💡 小贴士：桃子、李子等核果类水果成熟较快，建议少量购买，及时食用。</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="mb-8 md:mb-0">
+                    <h3 class="text-xl font-semibold mb-4">关于我们</h3>
+                    <p class="text-gray-400">
+                        我们致力于为大家提供专业的食品储藏知识，让每个家庭都能享受到新鲜安全的食材。
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">快速链接</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white">首页</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">储藏指南</a></li>
+                        <li><a href="mistakes.html" class="text-gray-400 hover:text-white">误区辨析</a></li>
+                        <li><a href="tips.html" class="text-gray-400 hover:text-white">保鲜妙招</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">联系我们</h3>
+                    <p class="text-gray-400">邮箱：daxjiayou9767@gmail.com</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">关注我们</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <span class="sr-only">微信</span>
+                            📱
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <span class="sr-only">微博</span>
+                            💬
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p class="text-gray-400">© 2025 三明治恐龙 (foodknowledge.xyz) 版权所有</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 

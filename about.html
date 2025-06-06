@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于我们 - 食品储藏指南</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2563eb',
+                        secondary: '#10b981',
+                        accent: '#f59e0b',
+                        light: '#f3f4f6',
+                        'theme-1': '#e11d48',
+                        'theme-2': '#7c3aed',
+                        'theme-3': '#059669',
+                        'theme-4': '#ea580c',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Header -->
+    <header class="fixed w-full bg-white/90 backdrop-blur-sm shadow-sm z-50">
+        <nav class="container mx-auto px-4 py-4 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <img src="https://api.dicebear.com/7.x/shapes/svg?seed=food" alt="Logo" class="w-10 h-10">
+                <span class="text-xl font-bold text-primary">食品储藏指南</span>
+            </div>
+            <div class="hidden md:flex space-x-8">
+                <a href="index.html" class="text-gray-600 hover:text-primary transition-colors">首页</a>
+                <a href="vegetables.html" class="text-gray-600 hover:text-primary transition-colors">储藏指南</a>
+                <a href="mistakes.html" class="text-gray-600 hover:text-primary transition-colors">误区辨析</a>
+                <a href="tips.html" class="text-gray-600 hover:text-primary transition-colors">保鲜妙招</a>
+                <a href="#" class="text-primary font-semibold">关于我们</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="pt-24 pb-12">
+        <div class="container mx-auto px-4 max-w-6xl">
+            <h1 class="text-4xl font-bold text-center mb-12">关于我们</h1>
+
+            <!-- 网站介绍 -->
+            <section class="bg-white rounded-xl shadow-lg p-8 mb-8">
+                <div class="grid md:grid-cols-2 gap-8 items-center">
+                    <div>
+                        <h2 class="text-2xl font-semibold mb-6 text-primary">我们的使命</h2>
+                        <p class="text-gray-700 mb-6 leading-relaxed">
+                            食品储藏指南网站致力于为每个家庭提供专业、实用的食品储藏知识。我们希望通过科学的储藏方法，帮助大家减少食材浪费，享受更新鲜、安全的食材。
+                        </p>
+                        <p class="text-gray-700 mb-6 leading-relaxed">
+                            我们的团队由食品科学专家、营养师和美食爱好者组成，致力于将专业知识转化为简单易懂的储藏建议。
+                        </p>
+                    </div>
+                    <div class="relative h-64">
+                        <img src="https://placehold.co/600x400/e2e8f0/1e293b?text=关于我们" alt="关于我们" class="w-full h-full object-cover rounded-lg shadow-md">
+                    </div>
+                </div>
+            </section>
+
+            <!-- 我们的价值观 -->
+            <section class="bg-white rounded-xl shadow-lg p-8 mb-8">
+                <h2 class="text-2xl font-semibold mb-8 text-center text-theme-2">我们的价值观</h2>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="text-center p-6">
+                        <div class="text-4xl mb-4">🎯</div>
+                        <h3 class="text-xl font-semibold mb-3">专业性</h3>
+                        <p class="text-gray-600">
+                            所有内容都基于科学研究和专业知识，确保信息的准确性和可靠性。
+                        </p>
+                    </div>
+                    <div class="text-center p-6">
+                        <div class="text-4xl mb-4">💡</div>
+                        <h3 class="text-xl font-semibold mb-3">实用性</h3>
+                        <p class="text-gray-600">
+                            提供简单易行的储藏方法，让每个人都能轻松掌握。
+                        </p>
+                    </div>
+                    <div class="text-center p-6">
+                        <div class="text-4xl mb-4">🌱</div>
+                        <h3 class="text-xl font-semibold mb-3">环保性</h3>
+                        <p class="text-gray-600">
+                            通过正确储藏减少食材浪费，为环保事业贡献力量。
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 联系方式 -->
+            <section class="bg-white rounded-xl shadow-lg p-8">
+                <h2 class="text-2xl font-semibold mb-8 text-center text-theme-3">联系我们</h2>
+                <div class="max-w-2xl mx-auto">
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div class="text-center p-6 bg-green-50 rounded-lg">
+                            <div class="text-4xl mb-4">📧</div>
+                            <h3 class="text-xl font-semibold mb-3">电子邮件</h3>
+                            <p class="text-gray-600">daxjiayou9767@gmail.com</p>
+                        </div>
+                        <div class="text-center p-6 bg-green-50 rounded-lg">
+                            <div class="text-4xl mb-4">🌐</div>
+                            <h3 class="text-xl font-semibold mb-3">网站</h3>
+                            <p class="text-gray-600">foodknowledge.xyz</p>
+                        </div>
+                    </div>
+                    <div class="mt-8 text-center">
+                        <p class="text-gray-600">
+                            如果您有任何问题、建议或合作意向，欢迎随时与我们联系。我们会在24小时内回复您的邮件。
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="mb-8 md:mb-0">
+                    <h3 class="text-xl font-semibold mb-4">关于我们</h3>
+                    <p class="text-gray-400">
+                        我们致力于为大家提供专业的食品储藏知识，让每个家庭都能享受到新鲜安全的食材。
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">快速链接</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white">首页</a></li>
+                        <li><a href="vegetables.html" class="text-gray-400 hover:text-white">储藏指南</a></li>
+                        <li><a href="mistakes.html" class="text-gray-400 hover:text-white">误区辨析</a></li>
+                        <li><a href="tips.html" class="text-gray-400 hover:text-white">保鲜妙招</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">联系我们</h3>
+                    <p class="text-gray-400">邮箱：daxjiayou9767@gmail.com</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">关注我们</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <span class="sr-only">微信</span>
+                            📱
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <span class="sr-only">微博</span>
+                            💬
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p class="text-gray-400">© 2025 三明治恐龙 (foodknowledge.xyz) 版权所有</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 

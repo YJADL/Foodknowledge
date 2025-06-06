@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>食品储藏指南 - 科学储藏，健康生活</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2563eb',
+                        secondary: '#10b981',
+                        accent: '#f59e0b',
+                        light: '#f3f4f6',
+                        'theme-1': '#e11d48',
+                        'theme-2': '#7c3aed',
+                        'theme-3': '#059669',
+                        'theme-4': '#ea580c',
+                    }
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .text-shadow {
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            }
+        }
+    </style>
+</head>
+<body class="font-sans">
+    <!-- Header -->
+    <header class="fixed w-full bg-white/90 backdrop-blur-sm shadow-sm z-50">
+        <nav class="container mx-auto px-4 py-4 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <img src="https://api.dicebear.com/7.x/shapes/svg?seed=food" alt="Logo" class="w-10 h-10">
+                <span class="text-xl font-bold text-primary">食品储藏指南</span>
+            </div>
+            <div class="hidden md:flex space-x-8">
+                <a href="#" class="text-gray-600 hover:text-primary transition-colors">首页</a>
+                <a href="#" class="text-gray-600 hover:text-primary transition-colors">储藏指南</a>
+                <a href="#" class="text-gray-600 hover:text-primary transition-colors">误区辨析</a>
+                <a href="#" class="text-gray-600 hover:text-primary transition-colors">保鲜妙招</a>
+                <a href="#" class="text-gray-600 hover:text-primary transition-colors">实用贴士</a>
+                <a href="#" class="text-gray-600 hover:text-primary transition-colors">关于我们</a>
+            </div>
+            <button class="md:hidden">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-24 pb-12 bg-gradient-to-br from-blue-50 to-green-50">
+        <div class="container mx-auto px-4 py-16">
+            <div class="text-center max-w-4xl mx-auto">
+                <h1 class="text-4xl md:text-6xl font-bold text-gray-800 mb-6">
+                    科学储藏，健康生活，从这里开始！
+                </h1>
+                <p class="text-xl text-gray-600 mb-8">
+                    让每一份食材都能保持最佳状态，让每一餐都充满安心与美味。
+                    我们用专业知识，守护您的餐桌健康！
+                </p>
+                <a href="#guide" class="inline-block bg-primary text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-600 transition-colors">
+                    开始探索
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Content Section -->
+    <section id="guide" class="py-16">
+        <div class="container mx-auto px-4 max-w-6xl">
+            <h2 class="text-3xl font-bold text-center mb-12">食物储藏百科</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- 食物分类卡片 -->
+                <a href="vegetables.html" class="group">
+                    <div class="bg-gradient-to-br from-theme-1/10 to-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                        <div class="text-theme-1 text-4xl mb-4 group-hover:scale-110 transition-transform">🥬</div>
+                        <h3 class="text-xl font-semibold mb-3 text-theme-1">蔬菜类</h3>
+                        <p class="text-gray-600">各类蔬菜的最佳储存方式、温度和保鲜技巧</p>
+                    </div>
+                </a>
+                <a href="fruits.html" class="group">
+                    <div class="bg-gradient-to-br from-theme-2/10 to-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                        <div class="text-theme-2 text-4xl mb-4 group-hover:scale-110 transition-transform">🍎</div>
+                        <h3 class="text-xl font-semibold mb-3 text-theme-2">水果类</h3>
+                        <p class="text-gray-600">不同水果的储存要点、成熟度判断与保鲜方法</p>
+                    </div>
+                </a>
+                <a href="meat.html" class="group">
+                    <div class="bg-gradient-to-br from-theme-3/10 to-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                        <div class="text-theme-3 text-4xl mb-4 group-hover:scale-110 transition-transform">🥩</div>
+                        <h3 class="text-xl font-semibold mb-3 text-theme-3">肉禽蛋类</h3>
+                        <p class="text-gray-600">生鲜肉类、禽类和蛋类的科学储存指南</p>
+                    </div>
+                </a>
+                <a href="seafood.html" class="group">
+                    <div class="bg-gradient-to-br from-theme-4/10 to-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                        <div class="text-theme-4 text-4xl mb-4 group-hover:scale-110 transition-transform">🐟</div>
+                        <h3 class="text-xl font-semibold mb-3 text-theme-4">水产海鲜</h3>
+                        <p class="text-gray-600">海鲜水产的保鲜秘诀与储存注意事项</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-16 bg-gradient-to-br from-blue-50 to-purple-50">
+        <div class="container mx-auto px-4 max-w-6xl">
+            <h2 class="text-3xl font-bold text-center mb-12">为什么选择我们？</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <a href="about.html" class="text-center p-8 bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="text-theme-1 text-4xl mb-4">📚</div>
+                    <h3 class="text-xl font-semibold mb-3">专业权威</h3>
+                    <p class="text-gray-600">基于科学研究的储藏建议，让您轻松掌握正确方法</p>
+                </a>
+                <a href="tips.html" class="text-center p-8 bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="text-theme-2 text-4xl mb-4">💡</div>
+                    <h3 class="text-xl font-semibold mb-3">实用技巧</h3>
+                    <p class="text-gray-600">提供简单易行的保鲜妙招，延长食材保质期</p>
+                </a>
+                <a href="vegetables.html" class="text-center p-8 bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="text-theme-3 text-4xl mb-4">🎯</div>
+                    <h3 class="text-xl font-semibold mb-3">精准分类</h3>
+                    <p class="text-gray-600">清晰的分类体系，快速找到所需信息</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">常见问题</h2>
+            <div class="max-w-3xl mx-auto space-y-6">
+                <a href="mistakes.html" class="block">
+                    <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+                        <h3 class="text-xl font-semibold mb-3">剩菜到底能放几天？</h3>
+                        <p class="text-gray-600">一般建议不超过2天，且需要及时冷藏。但具体时间取决于食材类型和储存条件，建议查看详细指南。</p>
+                    </div>
+                </a>
+                <a href="mistakes.html" class="block">
+                    <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+                        <h3 class="text-xl font-semibold mb-3">水果洗了再放还是不洗直接放？</h3>
+                        <p class="text-gray-600">大多数水果建议食用前再洗，因为清洗后容易加速腐败。特殊情况请参考具体水果的储存指南。</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">如何使用本站</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+                <div class="text-center">
+                    <div class="text-3xl mb-4">1️⃣</div>
+                    <h3 class="text-xl font-semibold mb-3">选择分类</h3>
+                    <p class="text-gray-600">根据食材类型选择对应分类</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl mb-4">2️⃣</div>
+                    <h3 class="text-xl font-semibold mb-3">查看指南</h3>
+                    <p class="text-gray-600">阅读详细的储存建议和技巧</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl mb-4">3️⃣</div>
+                    <h3 class="text-xl font-semibold mb-3">实践运用</h3>
+                    <p class="text-gray-600">按照指南操作，享受新鲜食材</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="mb-8 md:mb-0">
+                    <h3 class="text-xl font-semibold mb-4">关于我们</h3>
+                    <p class="text-gray-400">
+                        我们致力于为大家提供专业的食品储藏知识，让每个家庭都能享受到新鲜安全的食材。
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">快速链接</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">首页</a></li>
+                        <li><a href="vegetables.html" class="text-gray-400 hover:text-white">储藏指南</a></li>
+                        <li><a href="mistakes.html" class="text-gray-400 hover:text-white">误区辨析</a></li>
+                        <li><a href="tips.html" class="text-gray-400 hover:text-white">保鲜妙招</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">联系我们</h3>
+                    <p class="text-gray-400">邮箱：daxjiayou9767@gmail.com</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">关注我们</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <span class="sr-only">微信</span>
+                            📱
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <span class="sr-only">微博</span>
+                            💬
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p class="text-gray-400">© 2025 三明治恐龙 (foodknowledge.xyz) 版权所有</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 
